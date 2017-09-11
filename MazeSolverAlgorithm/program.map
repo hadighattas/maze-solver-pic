@@ -1,0 +1,214 @@
+MPLINK 4.35, Linker
+Linker Map File - Created Tue Apr 25 23:56:48 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x000674
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x00033d      
+            827 out of 1093 program addresses used, program memory utilization is 75%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                ADDRESS17   0x000138    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   APRINT   0x0002a2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     ARBI   0x000072    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    ARBI4   0x00007d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    ARBI5   0x000086    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    ARBI6   0x000093    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    ARBI7   0x000096    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 BLINKOFF   0x0002e9    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  BLINKON   0x0002e2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    BLOCK   0x00023f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                BLOCKDOWN   0x00023a    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  BLOCKUP   0x00023d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   BUZZER   0x0001a9    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                CHECKDOWN   0x000226    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                CHECKLEFT   0x0001f5    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 CHECKOBS   0x0001a4    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               CHECKRIGHT   0x0001dc    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  CHECKUP   0x000211    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                CLEARCHAR   0x0002f0    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                CLEARDISP   0x0002d8    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               CURSORLEFT   0x0002f3    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+             CURSORLOCDEC   0x000289    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+             CURSORLOCINC   0x000285    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              CURSORRIGHT   0x0002fa    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   DELAY1   0x000305    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   DELAY2   0x00030e    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   DELAY3   0x000315    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   DELAY4   0x000322    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               DELAYPRINT   0x000339    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     DONE   0x000259    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 DOWNLINE   0x000157    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   EPRINT   0x00029f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                       ET   0x00032f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  ETPRINT   0x000334    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 FILLDASH   0x0002ba    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+             INCREMENTITR   0x00025f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+            INCREMENTITR2   0x000266    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  INFLOOP   0x00006f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   ITRPRT   0x00026a    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               LEFTTODOWN   0x000225    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 LEFTTOUP   0x000210    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   LINE1T   0x000163    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   LINE2T   0x000166    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    LOOP1   0x000309    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    LOOP2   0x000310    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               LOOP2START   0x0001c8    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    LOOP3   0x00031b    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    LOOP4   0x000328    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 LOOPDASH   0x0002bc    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              LOOPETPRINT   0x00033b    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                LOOPPRINT   0x0002c6    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                LOOPSTART   0x0001bd    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               LOOPSTART2   0x0001cb    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     MAIN   0x00002e    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MAIN1   0x000008    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     MAZE   0x00028d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE1   0x000099    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE2   0x0000a2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE3   0x0000ab    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE4   0x0000b4    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE5   0x0000c9    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE6   0x0000e9    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  MOVEOBS   0x00010c    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     NEXT   0x000030    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   OPRINT   0x0002a5    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     PATH   0x000294    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    PATHX   0x000277    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   PLACEE   0x000195    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 PLACEOBS   0x000120    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  PLACEOM   0x000169    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   PLACES   0x000186    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    PRINT   0x0002a8    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                PRINTDISP   0x0002c4    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+             PRINTPOINTER   0x0002df    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              REMOVESTARS   0x000249    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     RESE   0x000255    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  RESTART   0x0001d7    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              RESTARTGAME   0x000281    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    RETRB   0x000301    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    RETT0   0x000303    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              RIGHTTOLEFT   0x0001f4    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   SETADD   0x0002b1    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 SETUPALG   0x0001ad    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                SHIFTLEFT   0x00012c    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               SHIFTRIGHT   0x000132    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   SKIP10   0x0002d2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   SPRINT   0x00029c    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    START   0x0001d2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  TMRZERO   0x000140    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   UPLINE   0x00015d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 UPORDOWN   0x00020d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    MAIN1   0x000008    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     MAIN   0x00002e    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     NEXT   0x000030    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  INFLOOP   0x00006f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     ARBI   0x000072    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    ARBI4   0x00007d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    ARBI5   0x000086    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    ARBI6   0x000093    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    ARBI7   0x000096    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE1   0x000099    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE2   0x0000a2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE3   0x0000ab    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE4   0x0000b4    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE5   0x0000c9    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    MODE6   0x0000e9    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  MOVEOBS   0x00010c    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 PLACEOBS   0x000120    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                SHIFTLEFT   0x00012c    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               SHIFTRIGHT   0x000132    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                ADDRESS17   0x000138    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  TMRZERO   0x000140    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 DOWNLINE   0x000157    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   UPLINE   0x00015d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   LINE1T   0x000163    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   LINE2T   0x000166    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  PLACEOM   0x000169    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   PLACES   0x000186    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   PLACEE   0x000195    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 CHECKOBS   0x0001a4    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   BUZZER   0x0001a9    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 SETUPALG   0x0001ad    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                LOOPSTART   0x0001bd    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               LOOP2START   0x0001c8    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               LOOPSTART2   0x0001cb    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    START   0x0001d2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  RESTART   0x0001d7    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               CHECKRIGHT   0x0001dc    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              RIGHTTOLEFT   0x0001f4    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                CHECKLEFT   0x0001f5    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 UPORDOWN   0x00020d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 LEFTTOUP   0x000210    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  CHECKUP   0x000211    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               LEFTTODOWN   0x000225    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                CHECKDOWN   0x000226    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                BLOCKDOWN   0x00023a    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  BLOCKUP   0x00023d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    BLOCK   0x00023f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              REMOVESTARS   0x000249    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     RESE   0x000255    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     DONE   0x000259    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+             INCREMENTITR   0x00025f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+            INCREMENTITR2   0x000266    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   ITRPRT   0x00026a    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    PATHX   0x000277    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              RESTARTGAME   0x000281    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+             CURSORLOCINC   0x000285    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+             CURSORLOCDEC   0x000289    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     MAZE   0x00028d    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                     PATH   0x000294    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   SPRINT   0x00029c    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   EPRINT   0x00029f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   APRINT   0x0002a2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   OPRINT   0x0002a5    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    PRINT   0x0002a8    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   SETADD   0x0002b1    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 FILLDASH   0x0002ba    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 LOOPDASH   0x0002bc    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                PRINTDISP   0x0002c4    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                LOOPPRINT   0x0002c6    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   SKIP10   0x0002d2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                CLEARDISP   0x0002d8    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+             PRINTPOINTER   0x0002df    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  BLINKON   0x0002e2    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                 BLINKOFF   0x0002e9    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                CLEARCHAR   0x0002f0    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               CURSORLEFT   0x0002f3    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              CURSORRIGHT   0x0002fa    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    RETRB   0x000301    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    RETT0   0x000303    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   DELAY1   0x000305    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    LOOP1   0x000309    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   DELAY2   0x00030e    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    LOOP2   0x000310    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   DELAY3   0x000315    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    LOOP3   0x00031b    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                   DELAY4   0x000322    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                    LOOP4   0x000328    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                       ET   0x00032f    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+                  ETPRINT   0x000334    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+               DELAYPRINT   0x000339    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+              LOOPETPRINT   0x00033b    program     static C:\Users\hadi\Desktop\group_21\PROJECT 321L\program.asm
+
+
